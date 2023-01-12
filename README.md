@@ -11,8 +11,6 @@
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=vetical&theme=radical)
 
-### 😂 Random Dev Meme
-<img src="https://www.boredpanda.com/blog/wp-content/uploads/2022/03/6228a2ac81c49_hwurhp7crzf81-png__700.jpg", height="512", width="512"/>
 
 ---
 
