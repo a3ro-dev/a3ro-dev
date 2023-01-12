@@ -12,9 +12,9 @@
 ![](https://quotes-github-readme.vercel.app/api?type=vetical&theme=radical)
 
 ### 😂 Random Dev Meme
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.boredpanda.com%2Fprogrammer-funny-coding-jokes%2F&psig=AOvVaw2y1r6baQAJ91pyUcF00Ebh&ust=1673586380143000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPil2KChwfwCFQAAAAAdAAAAABAJ/" width="512px"/>
+<img src="https://www.boredpanda.com/blog/wp-content/uploads/2022/03/6228a2ac81c49_hwurhp7crzf81-png__700.jpg" width="512px"/>
 
 ---
-[![](https://visitcount.itsvg.in/api?id=a3ro-dev&icon=2&color=1)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+
+
