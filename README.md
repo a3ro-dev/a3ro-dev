@@ -1,5 +1,5 @@
 # 💫 About Me:
-- Cloud and Networking Enthusiast.<br>- Web Developer.<br>- Local Business Solutions Architect.<br>- Former Visual Entrepreneur.<br>- Founder of Graphics Code™<br>   - Graphics and visual effects producé.
+- Cloud and Networking Enthusiast.<br>- Web Developer.<br>- Local Business Solutions Architect.<br>- Former Visual Entrepreneur.<br>- Founder of Graphics Code™<br>      - Graphics and visual effects producé.
 
 
 ## 🌐 Socials:
