@@ -1,5 +1,5 @@
 # 💫 About Me:
-🖋️ Former Visual Entrepreneur <br>💻 Python Freelancer<br>🐚 Python Web Developer<br>🏢 Local Business Solutions Architect<br>📚 Geek
+🖋️ Former Visual Entrepreneur <br>💻 Python Freelancer<br>🐚 Flutter Web and App Developer<br>🏢 Local Business Solutions Architect<br>📚 Geek
 
 
 ## 🌐 Socials:
