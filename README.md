@@ -1,6 +1,6 @@
 # Hey there! 👋
 
-**Python Backend, Automation and AI Developer | Blockchain/HyperLedger Intern**
+**Backend, Automation and AI Developer | Blockchain/HyperLedger Intern**
 
 ---
 
