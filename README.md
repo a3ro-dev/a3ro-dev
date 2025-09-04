@@ -5,7 +5,7 @@ akshat@github:~$ cat about.txt
 ```
 
 **Backend Developer** • **AI/ML Engineer** • **Automation Enthusiast**  
-Currently exploring: `Blockchain & HyperLedger` | Based in: `Kanpur, India`
+Currently exploring: `Blockchain & HyperLedger` | Based in: `Prayagraj, India`
 
 <div align="center">
 
