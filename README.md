@@ -24,7 +24,7 @@ akshat@terminal:~$ cat ./identity.json
   "name": "Akshat Singh Kushwaha",
   "alias": "a3ro-dev",
   "location": "Prayagraj, India 🇮🇳",
-  "role": ["Backend Developer", "AI/ML Engineer", "Automation Enthusiast"],
+  "role": ["Backend Developer", "AI Engineer", "Automation Enthusiast"],
   "status": "Building the future, one algorithm at a time ⚡",
   "currently_exploring": ["Blockchain", "HyperLedger", "AI Automation"],
   "coffee_level": "Maximum ☕",
