@@ -12,7 +12,7 @@
 
 <div align="center">
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&duration=2000&pause=800&color=00D9FF&center=true&vCenter=true&multiline=true&width=800&height=120&lines=👋+Hi%2C+I'm+Akshat+Singh+Kushwaha;🚀+Backend+Developer+%7C+AI%2FML+Engineer;🤖+Building+intelligent+systems;⚡+Automation+Enthusiast;🔗+Currently+exploring+Blockchain+%26+HyperLedger)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&duration=2000&pause=800&color=00D9FF&center=true&vCenter=true&multiline=true&width=800&height=120&lines=👋+Hi%2C+I'm+Akshat+Singh+Kushwaha;🚀+Backend+Developer+%7C+AI+Engineer;🤖+Building+intelligent+systems;⚡+Automation+Enthusiast;🔗+Currently+exploring+Blockchain+%26+HyperLedger)
 
 </div>
 
