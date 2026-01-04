@@ -92,8 +92,6 @@ I value clean abstractions, measurable trade-offs, and software that survives co
 - Edge AI systems where latency, power, and privacy matter
 - Designing developer tools that fail gracefully
 
-## <svg viewBox="0 0 24 24" width="16" height="16" aria-label="metrics" style="vertical-align: -2px; margin-right: 6px;" fill="none" stroke="#0b5fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="3,14 8,10 13,12 18,7 21,9"/><circle cx="8" cy="10" r="1.3" fill="#0b5fff"><animate attributeName="r" values="1.3;1.8;1.3" dur="1.6s" repeatCount="indefinite"/></circle><circle cx="18" cy="7" r="1.3" fill="#0b5fff"><animate attributeName="r" values="1.3;1.8;1.3" dur="1.6s" repeatCount="indefinite"/></circle></svg>Metrics
-
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=a3ro-dev&show_icons=true&theme=tokyonight&hide_border=true" />
