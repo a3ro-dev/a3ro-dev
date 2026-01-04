@@ -15,11 +15,12 @@
   <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2" alt="divider" />
 </div>
 
-<!-- Animated icons integrated inline with headings below -->
-
 ## <svg viewBox="0 0 24 24" width="16" height="16" role="img" aria-label="overview" style="vertical-align: -2px; margin-right: 6px;"><circle cx="12" cy="12" r="8" fill="none" stroke="#0b5fff" stroke-width="2" stroke-dasharray="50 6"><animateTransform attributeName="transform" type="rotate" from="0 12 12" to="360 12 12" dur="3s" repeatCount="indefinite"/></circle><circle cx="12" cy="12" r="2" fill="#8e4162"><animate attributeName="r" values="2;2.8;2" dur="1.8s" repeatCount="indefinite"/></circle></svg>At a glance
 
-I design practical backend systems and ship useful AI features. I value clarity, reliability, and maintainable code.
+I build backend systems and AI tools under real-world constraints: limited hardware, noisy inputs, and users who value speed and clarity over complexity.  
+My work focuses on making language models and automation *useful*—especially on lightweight infrastructure and edge devices.
+
+I value clean abstractions, measurable trade-offs, and software that survives contact with reality.
 
 ## <svg viewBox="0 0 24 24" width="16" height="16" role="img" aria-label="quote" style="vertical-align: -2px; margin-right: 6px;"><path d="M7.2 6C4.9 6 3 7.9 3 10.2s1.9 4.2 4.2 4.2c.5 0 .9-.1 1.3-.2-.3 2.1-1.5 3.8-3.5 4.9-.3.1-.4.5-.2.7.1.2.3.3.5.3.1 0 .2 0 .3-.1 2.6-1.4 4.2-3.8 4.4-6.6 0-.1 0-.2 0-.4V6.8c0-.5-.4-.8-.8-.8H7.2zM16.9 6c-2.3 0-4.2 1.9-4.2 4.2s1.9 4.2 4.2 4.2c.5 0 .9-.1 1.3-.2-.3 2.1-1.5 3.8-3.5 4.9-.3.1-.4.5-.2.7.1.2.3.3.5.3.1 0 .2 0 .3-.1 2.6-1.4 4.2-3.8 4.4-6.6 0-.1 0-.2 0-.4V6.8c0-.5-.4-.8-.8-.8h-2z" fill="#6e84d6"><animate attributeName="opacity" values=".85;1;.85" dur="2.5s" repeatCount="indefinite"/></path></svg>Dynamic quote
 
@@ -37,39 +38,39 @@ I design practical backend systems and ship useful AI features. I value clarity,
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/a3ro-dev">FAM Assistant</a></h3>
-      <p>Voice-enabled utilities for desktop and Raspberry Pi.</p>
+      <p>Voice-enabled utilities for desktop and Raspberry Pi, built under tight latency and power constraints.</p>
       <ul>
-        <li>Speech recognition and media control</li>
-        <li>Desktop integration workflows</li>
-        <li>Linux-first deployment</li>
+        <li>Speech-driven workflows with local-first execution</li>
+        <li>Optimized for low-power Linux environments</li>
+        <li>Explored trade-offs between responsiveness, accuracy, and compute</li>
       </ul>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/a3ro-dev">Erocabulary</a></h3>
-      <p>Language learning bot with adaptive content.</p>
+      <p>Adaptive language-learning bot focused on retention and feedback loops.</p>
       <ul>
-        <li>Vocabulary growth and grammar drills</li>
-        <li>Telegram interface</li>
-        <li>Efficient inference using hosted LLMs</li>
+        <li>Telegram-based conversational interface</li>
+        <li>Cost-aware LLM inference for scalable usage</li>
+        <li>UX-first design over raw model complexity</li>
       </ul>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/a3ro-dev/aAlem">aAlem</a></h3>
-      <p>Modern notes with search and encryption.</p>
+      <p>Encrypted note-taking system exploring the balance between usability and privacy.</p>
       <ul>
-        <li>Clean desktop UI</li>
-        <li>Semantic search</li>
-        <li>Client-side encryption</li>
+        <li>Client-side encryption with searchable content</li>
+        <li>Semantic search without data leakage</li>
+        <li>Minimal UI to reduce cognitive overhead</li>
       </ul>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://a3ro-dev.me/projects">Explore more</a></h3>
-      <p>Portfolio with additional projects and experiments.</p>
+      <p>Extended portfolio with production work and experiments.</p>
       <ul>
-        <li>Production work and prototypes</li>
-        <li>Notes on architecture and trade-offs</li>
+        <li>Prototypes and deployed systems</li>
+        <li>Notes on architecture decisions and trade-offs</li>
       </ul>
     </td>
   </tr>
@@ -79,10 +80,17 @@ I design practical backend systems and ship useful AI features. I value clarity,
 
 **Languages**: Python, Dart, Bash, SQL  
 **Frameworks**: FastAPI, Streamlit, LangChain, Discord.py, Telegram Bot API  
-**AI/ML**: OpenAI API, Groq, CUDA (basics), NLP tooling  
+**AI / ML**: OpenAI API, Groq, CUDA (basics), NLP tooling  
 **Hardware**: Raspberry Pi, ESP32, Arduino  
 **Cloud & Data**: AWS, Azure, SQLite, Pinecone, Vercel  
 **Tools**: Linux, Git, GitHub, CI/CD basics
+
+## Current interests
+
+- Efficient inference and model compression (quantization, lightweight fine-tuning)
+- Retrieval-augmented generation for structured and semi-structured data
+- Edge AI systems where latency, power, and privacy matter
+- Designing developer tools that fail gracefully
 
 ## <svg viewBox="0 0 24 24" width="16" height="16" aria-label="metrics" style="vertical-align: -2px; margin-right: 6px;" fill="none" stroke="#0b5fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="3,14 8,10 13,12 18,7 21,9"/><circle cx="8" cy="10" r="1.3" fill="#0b5fff"><animate attributeName="r" values="1.3;1.8;1.3" dur="1.6s" repeatCount="indefinite"/></circle><circle cx="18" cy="7" r="1.3" fill="#0b5fff"><animate attributeName="r" values="1.3;1.8;1.3" dur="1.6s" repeatCount="indefinite"/></circle></svg>Metrics
 
