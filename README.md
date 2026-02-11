@@ -17,8 +17,9 @@
 
 ## <svg viewBox="0 0 24 24" width="16" height="16" role="img" aria-label="overview" style="vertical-align: -2px; margin-right: 6px;"><circle cx="12" cy="12" r="8" fill="none" stroke="#0b5fff" stroke-width="2" stroke-dasharray="50 6"><animateTransform attributeName="transform" type="rotate" from="0 12 12" to="360 12 12" dur="3s" repeatCount="indefinite"/></circle><circle cx="12" cy="12" r="2" fill="#8e4162"><animate attributeName="r" values="2;2.8;2" dur="1.8s" repeatCount="indefinite"/></circle></svg>At a glance
 
-I build backend systems and AI tools under real-world constraints: limited hardware, noisy inputs, and users who value speed and clarity over complexity.  
-My work focuses on making language models and automation *useful*—especially on lightweight infrastructure and edge devices.
+I build backend systems and AI tools under real-world constraints: limited hardware, noisy inputs, and users who value speed and clarity over complexity.
+
+My work focuses on making language models and automation *useful*—especially on lightweight infrastructure and edge devices. I care about efficiency and robustness, not just benchmarks.
 
 I value clean abstractions, measurable trade-offs, and software that survives contact with reality.
 
@@ -37,12 +38,12 @@ I value clean abstractions, measurable trade-offs, and software that survives co
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/a3ro-dev">FAM Assistant</a></h3>
-      <p>Voice-enabled utilities for desktop and Raspberry Pi, built under tight latency and power constraints.</p>
+      <h3><a href="https://github.com/a3ro-dev">FAM</a></h3>
+      <p>Voice-activated assistant for Raspberry Pi: music, task management, and game launching with modular features. Built for tight latency and power constraints.</p>
       <ul>
         <li>Speech-driven workflows with local-first execution</li>
-        <li>Optimized for low-power Linux environments</li>
-        <li>Explored trade-offs between responsiveness, accuracy, and compute</li>
+        <li>Optimized for low-power Linux (Pygame, NumPy stack)</li>
+        <li>Trade-offs between responsiveness, accuracy, and compute</li>
       </ul>
     </td>
     <td width="50%" valign="top">
@@ -58,7 +59,7 @@ I value clean abstractions, measurable trade-offs, and software that survives co
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/a3ro-dev/aAlem">aAlem</a></h3>
-      <p>Encrypted note-taking system exploring the balance between usability and privacy.</p>
+      <p>Encrypted note-taking system balancing usability and privacy.</p>
       <ul>
         <li>Client-side encryption with searchable content</li>
         <li>Semantic search without data leakage</li>
@@ -66,31 +67,39 @@ I value clean abstractions, measurable trade-offs, and software that survives co
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://a3ro-dev.me/projects">Explore more</a></h3>
-      <p>Extended portfolio with production work and experiments.</p>
+      <h3><a href="https://a3ro-dev.me/projects">LegalEase & more</a></h3>
+      <p>AI-powered legal assistant for Indian law (research, document analysis, drafting). Plus production systems and experiments.</p>
       <ul>
-        <li>Prototypes and deployed systems</li>
-        <li>Notes on architecture decisions and trade-offs</li>
+        <li>FastAPI, Python, LLM-backed workflows</li>
+        <li>Portfolio: prototypes, deployed systems, architecture notes</li>
       </ul>
     </td>
   </tr>
 </table>
 
+## <svg viewBox="0 0 24 24" width="16" height="16" aria-label="current" style="vertical-align: -2px; margin-right: 6px;" fill="none" stroke="#0b5fff" stroke-width="1.6"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/><circle cx="12" cy="12" r="3"/></svg>Currently
+
+**STEMist Education** — Chapter Lead & Technical Lead. Founding the STEMist chapter at Boys' High School, Prayagraj; building a zero gate-keeping, builder-focused STEM club with hands-on workshops and demo days.
+
+**Bits&Bytes** — Founding Member & Technical Lead. Shaping vision and running hackathons, coding workshops, and tech events for young developers; managing website, comms, and event systems.
+
+Previously **Jr. Research Engineer** at **jhana** (Nov 2025–Jan 2026): AI-powered legal tech—WhatsApp conversational flows with Gemini voice transcription, multimodal legal consultation analysis, natural-language command parsing for document editing and version control, concurrent processing for real-time message streams.
+
 ## <svg viewBox="0 0 24 24" width="16" height="16" aria-label="stack" style="vertical-align: -2px; margin-right: 6px;" fill="none" stroke="#8e4162" stroke-width="1.6"><ellipse cx="12" cy="6" rx="7" ry="3"/><path d="M5 6v8c0 1.7 3.1 3 7 3s7-1.3 7-3V6"/><ellipse cx="12" cy="10" rx="7" ry="3" opacity=".35"/><ellipse cx="12" cy="14" rx="7" ry="3" opacity=".2"><animate attributeName="opacity" values=".2;.5;.2" dur="2s" repeatCount="indefinite"/></ellipse></svg>Tech stack
 
-**Languages**: Python, Dart, Bash, SQL  
-**Frameworks**: FastAPI, Streamlit, LangChain, Discord.py, Telegram Bot API  
-**AI / ML**: OpenAI API, Groq, CUDA (basics), NLP tooling  
-**Hardware**: Raspberry Pi, ESP32, Arduino  
-**Cloud & Data**: AWS, Azure, SQLite, Pinecone, Vercel  
+**Languages**: Python, TypeScript, Dart, Bash, SQL  
+**Backend & APIs**: FastAPI, Next.js, REST APIs, LangChain, Discord.py, Telegram Bot API  
+**AI / ML**: LLMs, OpenAI API, Groq, fine-tuning, NLP, Docker, LLMOps  
+**Hardware & edge**: Raspberry Pi, ESP32, Arduino  
+**Cloud & data**: AWS, EC2, Azure, SQLite, Pinecone, Vercel  
 **Tools**: Linux, Git, GitHub, CI/CD basics
 
-## Current interests
+## <svg viewBox="0 0 24 24" width="16" height="16" aria-label="interests" style="vertical-align: -2px; margin-right: 6px;" fill="none" stroke="#6e84d6" stroke-width="1.6"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>Current interests
 
-- Efficient inference and model compression (quantization, lightweight fine-tuning)
+- Efficient inference and model compression (quantization, LoRA/QLoRA, lightweight fine-tuning)
 - Retrieval-augmented generation for structured and semi-structured data
-- Edge AI systems where latency, power, and privacy matter
-- Designing developer tools that fail gracefully
+- Edge and on-device AI where latency, power, and privacy matter
+- Systems that stay useful under pressure—robust when sensors and inputs are noisy
 
 <div align="center">
   <picture>
