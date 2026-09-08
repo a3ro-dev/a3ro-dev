@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="330" viewBox="0 0 1100 330" role="img" aria-labelledby="title desc">
+  <title id="title">Akshat's project terminal</title>
+  <desc id="desc">A dark terminal window listing Qenlo, HybridMind, Luna, and bits and bytes beside a small pixel cat.</desc>
+  <defs>
+    <linearGradient id="shell" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/><stop offset="0.55" stop-color="#15152c"/><stop offset="1" stop-color="#25122d"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#67e8f9"/><stop offset="0.5" stop-color="#a78bfa"/><stop offset="1" stop-color="#f9a8d4"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-20%" width="120%" height="150%"><feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#020617" flood-opacity="0.55"/></filter>
+  </defs>
+  <rect width="1100" height="330" rx="28" fill="#060813"/>
+  <circle cx="92" cy="270" r="120" fill="#312e81" opacity="0.14"/><circle cx="1020" cy="55" r="150" fill="#831843" opacity="0.13"/>
+  <g filter="url(#shadow)">
+    <rect x="34" y="30" width="1032" height="270" rx="20" fill="url(#shell)" stroke="#334155" stroke-width="2"/>
+    <path d="M34 82h1032" stroke="#334155" stroke-width="2"/>
+    <circle cx="67" cy="56" r="7" fill="#fb7185"/><circle cx="91" cy="56" r="7" fill="#fbbf24"/><circle cx="115" cy="56" r="7" fill="#4ade80"/>
+    <text x="550" y="62" text-anchor="middle" fill="#94a3b8" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15">akshat@github: ~/projects</text>
+  </g>
+  <text x="74" y="126" fill="#67e8f9" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="18">$ ls -1 --things-i-actually-built</text>
+  <text x="76" y="166" fill="#f8fafc" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-weight="700" font-size="31">qenlo/</text>
+  <text x="76" y="205" fill="#f8fafc" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-weight="700" font-size="31">hybridmind/</text>
+  <text x="330" y="166" fill="#f8fafc" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-weight="700" font-size="31">luna/</text>
+  <text x="330" y="205" fill="#f8fafc" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-weight="700" font-size="31">bits&amp;bytes/</text>
+  <rect x="75" y="235" width="480" height="3" rx="2" fill="url(#line)"/>
+  <text x="76" y="268" fill="#94a3b8" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="16">4 directories · sqlite has entered the chat</text>
+  <g transform="translate(770 112)" shape-rendering="crispEdges">
+    <path d="M18 32V8h16v12h48V8h16v24h12v76H6V32z" fill="#c4b5fd"/>
+    <path d="M18 8h16v12H18zm64 0h16v12H82z" fill="#f9a8d4"/>
+    <rect x="22" y="55" width="16" height="16" fill="#0f172a"/><rect x="78" y="55" width="16" height="16" fill="#0f172a"/>
+    <rect x="50" y="75" width="16" height="12" fill="#fb7185"/>
+    <rect x="38" y="91" width="16" height="8" fill="#0f172a"/><rect x="66" y="91" width="16" height="8" fill="#0f172a"/>
+    <path d="M6 108h104v14H6z" fill="#67e8f9"/>
+    <path d="M-22 48H2v5h-24zm0 18H2v5h-24zm132-18h24v5h-24zm0 18h24v5h-24z" fill="#94a3b8"/>
+  </g>
+  <text x="828" y="270" text-anchor="middle" fill="#f9a8d4" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="16">&lt;code goes here /&gt;</text>
+</svg>
