@@ -1,84 +1,63 @@
 <p align="center">
-  <img src="profile-assets/project-terminal.svg" width="100%" alt="A project terminal showing Qenlo, HybridMind, Luna, and bits&bytes" />
+  <img src="profile-assets/selected-works.svg" width="100%" alt="Akshat Singh Kushwaha, selected systems and software projects" />
 </p>
 
-<p align="center">
-  <a href="#-qenlo"><code>qenlo</code></a>
-  <a href="#-hybridmind"><code>hybridmind</code></a>
-  <a href="#-luna"><code>luna</code></a>
-  <a href="#-bitsbytes"><code>bits&amp;bytes</code></a>
-</p>
+<br />
 
-## `$ git log --projects`
+<h2>01 / <a href="https://github.com/a3ro-dev/qenlo">qenlo</a></h2>
 
-### / qenlo
+<sub>EMBEDDED VECTOR STORAGE · RUST</sub>
 
-[`github.com/a3ro-dev/qenlo`](https://github.com/a3ro-dev/qenlo) · `rust` `wgpu` `local-first`
+observable, embedded vector search over durable local collections. every query runs against one committed generation, so concurrent writes appear whole or not at all.
 
-an embedded vector store for software that wants durable records and exact cosine search without running a separate database service.
+`canonical rows → compiled filter plan → exact CPU / exact WGPU / USearch HNSW`
 
-```text
-app writes
-   └─> canonical local store
-          └─> metadata filter
-                 ├─> exact CPU
-                 ├─> WGPU
-                 └─> USearch / PyTorch
-```
+the search report names the backend, algorithm, filter execution, preparation cost, allocation, and any fallback. the Rust core also feeds Python, TypeScript, Go, Kotlin, and Swift bindings; Python has a separate snapshot-bound Torch index for CPU, CUDA, or MPS.
 
-atomic mutations, deterministic ordering, explicit fallback diagnostics, and SDKs for Rust, Python, TypeScript, Go, Kotlin, and Swift. the accelerated indexes are rebuildable; the records aren't disposable.
+[source](https://github.com/a3ro-dev/qenlo) · [research paper](https://github.com/a3ro-dev/qenlo/blob/main/QENLO-RESEARCH-PAPER.pdf) · [crates.io](https://crates.io/crates/qenlo) · [PyPI](https://pypi.org/project/qenlo/)
 
----
+<p align="center">· &nbsp; · &nbsp; ·</p>
 
-### / hybridmind
+<h2>02 / <a href="https://github.com/a3ro-dev/hybridmind">hybridmind</a></h2>
 
-[`github.com/a3ro-dev/hybridmind`](https://github.com/a3ro-dev/hybridmind) · `python` `faiss` `bm25s` `networkx`
+<sub>HYBRID RETRIEVAL · PYTHON</sub>
 
-agent memory with three independent ways to find the same fact: meaning, exact words, and relationships.
+an auditable retrieval service for agent memory. dense, sparse, and graph paths can run together or in isolation, with query-type routing and explicit temporal validity.
 
-```text
-query
-  ├─> dense vectors ─┐
-  ├─> lexical BM25 ──┼─> weighted RRF ─> evidence
-  └─> typed graph ───┘
-```
+`query → routed search modes → weighted RRF → optional rerank → trace`
 
-bitemporal SQLite/WAL stays authoritative while runtime indexes can be rebuilt. portable `.mind` snapshots are checksummed, and 390+ offline tests make sure the retrieval layer doesn't quietly phone home.
+each response can expose which stages ran, how many candidates they produced, the resolved controls, and a hash of that configuration. bitemporal SQLite/WAL remains authoritative; `.mind.zip` snapshots carry checksummed JSON/JSONL projections and rebuild runtime indexes without loading executable pickle payloads.
 
----
+[source](https://github.com/a3ro-dev/hybridmind)
 
-### / luna
+<p align="center">· &nbsp; · &nbsp; ·</p>
 
-[`github.com/a3ro-dev/luna`](https://github.com/a3ro-dev/luna) · `next.js` `postgres` `ai-sdk` `openui`
+<h2>03 / <a href="https://github.com/a3ro-dev/luna">luna</a></h2>
 
-a cycle companion you talk to like a person. no spreadsheet-shaped ritual before the software becomes useful.
+<sub>ADAPTIVE CYCLE PREDICTION · TYPESCRIPT</sub>
 
-```text
-plain conversation
-   └─> 10 focused tools
-          ├─> cycle history + memory
-          ├─> adaptive prediction
-          └─> cards, calendars, phase maps
-```
+a cycle companion whose chat is wired directly into the prediction and persistence layer through ten bounded tools.
 
-the prediction engine blends ACOG cold-start priors with adaptive exponential smoothing and soft outlier clamps. Supermemory carries context between sessions; OpenUI turns the result into something less grim than a row of database fields.
+`conversation → typed tools → condition-aware forecast → OpenUI result`
 
----
+the engine blends condition-specific priors with personal history, adapts its smoothing factor from recent residuals, gates implausible intervals, derives phase lengths under a physiological constraint, and reports jackknife uncertainty when there is enough data. cycle records stay in Postgres; Supermemory is limited to personal context outside those records.
 
-### / bits&bytes
+[source](https://github.com/a3ro-dev/luna)
 
-[`github.com/gobitsnbytes/bitsnbytes`](https://github.com/gobitsnbytes/bitsnbytes) · `next.js` `react` `supabase` `rag`
+<p align="center">· &nbsp; · &nbsp; ·</p>
 
-the public web surface for a student-run builder network: events, applications, chapters, and the odd machinery needed to keep all of it moving.
+<h2>04 / <a href="https://github.com/gobitsnbytes/bitsnbytes">bits&amp;bytes</a></h2>
 
-```text
-visitor + current route
-          └─> site content + vector search
-                       └─> useful answer / next action
-```
+<sub>STUDENT BUILDER NETWORK · TYPESCRIPT</sub>
 
-the same app holds the event archive, membership flow, brand system, and a route-aware assistant backed by Supabase. small team, one codebase, fewer mysterious handoffs.
+the public and operational web surface for a student-run builder network: events, applications, local forks, live services, and team scheduling.
 
-<p align="center">
-  <sub><code>// eof. open the repos; that's where the work is.</code></sub>
-</p>
+`current page + Upstash corpus → grounded answer → navigation / form / booking`
+
+the assistant is scoped to the organisation and required to retrieve before stating facts. its tools can search the site corpus, highlight live page text, match team expertise, submit enquiries, and schedule or manage calls through the separate Motherboard API.
+
+[source](https://github.com/gobitsnbytes/bitsnbytes)
+
+<br />
+
+<p align="center"><sub>SELECTED WORKS · 04 REPOSITORIES</sub></p>
